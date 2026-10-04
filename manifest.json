@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Batch Delete",
+  "version": "0.1.0",
+  "description": "Selecciona múltiples chats de ChatGPT para administrarlos por lote.",
+  "content_scripts": [
+    {
+      "matches": ["https://chatgpt.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
